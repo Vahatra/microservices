@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-vahatra
+  AWS_PROFILE: default
+  AWS_REGION: eu-west-3
+  JWT_SECRET: aaa
+  POSTGRESS_DB: udagramvahatra
+  POSTGRESS_HOST: udagramvahatra.cgbb2hecuxfb.eu-west-3.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
